@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#logo {
+  width: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  /* border-radius: 200px; */
+  padding: 1%;
+}
+
+.cont {
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  /* color: white; */
+  font-size: 60px;
+  /* font-family: adam; */
+  font-weight: bold;
+  color: white;
+}
+
+#subtitle {
+  color: white;
+  text-align: center;
+}
+
+.logoCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: #282828;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.nav-list p {
+  padding: 18px 30px;
+}
+
+.nav-list p a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.nav-list p a:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+.footercont {
+  background-color: #282828;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.welcontbox {
+  display: flex;
+  padding: 4%;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  height: 10px;
+  width: 100%;
+  background-color: #e78432;
+}
+.footertxt {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+#copywrite {
+  text-align: center;
+  padding: 1%;
+  background-color: #121212;
+  color: white;
+}
+
+.item {
+  color: white;
+  /* text-decoration: none; */
+  padding: 1%;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  height: 75vh;
+  align-items: center;
+  padding-top: 7%;
+}
+
+.cardCont {
+  margin: auto;
+}
+
+#card {
+  padding: 15px 20px 20px 20px;
+  text-align: center;
+  margin-top: 113px;
+  width: 250px;
+  height: 260px;
+  background-color: #f9eff5;
+  margin-top: -113px;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+#Icon {
+  margin-top: -90px;
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  margin-left: -61px;
+}
+
+.sectionTag {
+  font-size: 30px;
+  margin-top: 60px;
+  font-family: 'Oswald', sans-serif;
+  color: #333;
+}
+
+.sectionSubTag {
+  font-size: 18px;
+  padding-top: 10px;
+}
