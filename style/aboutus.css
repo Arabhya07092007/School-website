@@ -47,7 +47,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   background-color: #282828;
 }
 
@@ -55,7 +55,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Exo 2", sans-serif;
 }
 
 .nav-list p {
@@ -70,7 +70,7 @@
 
 .nav-list p a:hover {
   text-decoration: none;
-  color: grey;
+  color: #FFCF00;
 }
 
 .footercont {
@@ -153,11 +153,92 @@
 .sectionTag {
   font-size: 30px;
   margin-top: 60px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   color: #333;
 }
 
 .sectionSubTag {
   font-size: 18px;
   padding-top: 10px;
+}
+
+.sec-cont {
+  justify-content: center;
+  display: flex;
+  background-color: #f3f3f2;
+  margin: 5%;
+  padding: 3%;
+  align-items: center;
+  /* border-radius: 5px; */
+}
+
+#stimg {
+  width: 40%;
+  /* height: 40%; */
+  object-fit: cover;
+  /* top: -40; */
+  border-radius: 10px;
+  /* position: absolute; */
+  /* display: block; */
+}
+#second-img {
+  width: 35%;
+  /* height: 10%; */
+  object-fit: cover;
+  /* top: -40; */
+  border-radius: 10px;
+  /* position: absolute; */
+  /* display: block; */
+}
+
+.st-cont {
+  margin: 3%;
+}
+
+.st-title {
+  font-family: "Lato", sans-serif;
+  /* font-size: 14px; */
+  color: #445380;
+  font-size: 33px;
+}
+
+.description {
+  margin-top: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.leader-img {
+  width: 20%;
+  /* height: 50%; */
+  border-radius: 5px;
+
+  object-fit: cover;
+}
+
+.scl {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.school-leader {
+  margin: 5%;
+  /* padding: 3%; */
+}
+.scl {
+  padding: 2%;
+}
+
+.scl-cont {
+  margin: 2%;
+}
+
+.emphasise {
+  font-weight: bolder;
+  font-family: "Lato", sans-serif;
+  /* font-size: 14px; */
+  color: #363e55;
+  font-size: medium;
+  margin-top: 10px;
+  /* font-size: 33px; */
 }
